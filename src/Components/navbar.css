@@ -1,0 +1,35 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  background-color: white;
+}
+.navbar img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.navbar ul {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+.navbar ul,
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+}
+
+/* hover */
+
+.navbar a:hover {
+  color: white;
+  border-radius: 10px;
+  background-color: red;
+}

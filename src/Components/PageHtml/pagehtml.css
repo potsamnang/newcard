@@ -1,0 +1,10 @@
+.pagehtml {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 5rem;
+  font-family: sans-serif;
+  color: red;
+}
