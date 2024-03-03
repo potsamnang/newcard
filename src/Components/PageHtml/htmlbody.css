@@ -1,0 +1,18 @@
+.grid-one {
+  width: 100%;
+}
+/* .grid .grid-two {
+  width: 75%;
+  background-color: beige;
+} */
+.grid-one li {
+  width: 300px;
+}
+.grid-one a {
+  display: block;
+  width: 100%;
+}
+.grid-one a:hover {
+  background-color: white;
+  border-radius: 10px;
+}

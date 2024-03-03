@@ -1,10 +1,19 @@
 import React from "react";
 import "./pagehtml.css";
+import HtmlBody from "./HtmlBody";
+import HtmlHeader from "./HtmlHeader";
+import { Outlet } from "react-router-dom";
 
 const Html = () => {
   return (
-    <div className="pagehtml">
-      <h3>Welcome to My HTML !</h3>
+    <div>
+      <HtmlHeader />
+      <div className="pagehtml">
+        <div className="body">
+          <HtmlBody />
+        </div>
+        <Outlet />
+      </div>
     </div>
   );
 };

@@ -1,9 +1,12 @@
 .navbar {
   width: 100%;
+  position: sticky;
+  position: -webkit-sticky;
   display: flex;
   justify-content: space-between;
   padding: 1rem 3rem;
   background-color: white;
+  top: 0;
 }
 .navbar img {
   width: 70px;

@@ -12,13 +12,13 @@ import { Link } from "react-router-dom";
 const PageHome = () => {
   return (
     <div className="wrapper">
-      <HomeProp img={p4} name="40$" detail="Samnag is a good boy">
+      <HomeProp img={p1} name="40$" detail="Samnag is a good boy">
         <Link to="html">HTML</Link>
       </HomeProp>
-      <HomeProp img={p5} name="40$" detail="Samnag is a good boy">
+      <HomeProp img={p2} name="40$" detail="Samnag is a good boy">
         <Link to="css">CSS</Link>
       </HomeProp>
-      <HomeProp img={p6} name="80$" detail="Samnag is a good boy">
+      <HomeProp img={p3} name="80$" detail="Samnag is a good boy">
         <Link to="react">ReactJS</Link>
       </HomeProp>
     </div>

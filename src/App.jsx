@@ -7,6 +7,12 @@ import Contact from "./Pages/Contact";
 import Html from "./Components/PageHtml/Html";
 import Css from "./Components/PageCss/Css";
 import ReactJs from "./Components/PageReact/ReactJs";
+import ListOne from "./Components/PageHtml/PageList/ListOne";
+import ListTwo from "./Components/PageHtml/PageList/ListTwo";
+import ListThree from "./Components/PageHtml/PageList/ListThree";
+import ListFour from "./Components/PageHtml/PageList/ListFour";
+import ListFive from "./Components/PageHtml/PageList/ListFive";
+import ListSix from "./Components/PageHtml/PageList/ListSix";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +34,32 @@ const router = createBrowserRouter([
       {
         path: "html",
         element: <Html />,
+        children: [
+          {
+            path: "one",
+            element: <ListOne />,
+          },
+          {
+            path: "two",
+            element: <ListTwo />,
+          },
+          {
+            path: "three",
+            element: <ListThree />,
+          },
+          {
+            path: "four",
+            element: <ListFour />,
+          },
+          {
+            path: "five",
+            element: <ListFive />,
+          },
+          {
+            path: "six",
+            element: <ListSix />,
+          },
+        ],
       },
       {
         path: "css",
