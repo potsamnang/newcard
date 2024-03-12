@@ -12,13 +12,25 @@ import { Link } from "react-router-dom";
 const PageHome = () => {
   return (
     <div className="wrapper">
-      <HomeProp img={p1} name="40$" detail="Samnag is a good boy">
+      <HomeProp
+        img={p1}
+        name="For Free!"
+        detail="HTML is the standard markup language for creating Web pages."
+      >
         <Link to="html">HTML</Link>
       </HomeProp>
-      <HomeProp img={p2} name="40$" detail="Samnag is a good boy">
+      <HomeProp
+        img={p2}
+        name="For Free!"
+        detail="CSS is the language we use to style a Web page."
+      >
         <Link to="css">CSS</Link>
       </HomeProp>
-      <HomeProp img={p3} name="80$" detail="Samnag is a good boy">
+      <HomeProp
+        img={p3}
+        name="For Free!"
+        detail="React is a tool for building UI components."
+      >
         <Link to="react">ReactJS</Link>
       </HomeProp>
     </div>
