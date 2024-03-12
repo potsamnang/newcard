@@ -1,7 +1,7 @@
-import React from "react";
-import "./pagehtml.css";
 import HtmlBody from "./HtmlBody";
 import HtmlHeader from "./HtmlHeader";
+import "../htmlbody.css";
+import "../htmlheader.css";
 import { Outlet } from "react-router-dom";
 
 const Html = () => {

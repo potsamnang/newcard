@@ -13,6 +13,12 @@ import ListThree from "./Components/PageHtml/PageList/ListThree";
 import ListFour from "./Components/PageHtml/PageList/ListFour";
 import ListFive from "./Components/PageHtml/PageList/ListFive";
 import ListSix from "./Components/PageHtml/PageList/ListSix";
+import ReactOne from "./Components/PageReact/List/ReactOne";
+import ReactTwo from "./Components/PageReact/List/ReactTwo";
+import ReactThree from "./Components/PageReact/List/ReactThree";
+import ReactFour from "./Components/PageReact/List/ReactFour";
+import ReactFive from "./Components/PageReact/List/ReactFive";
+import ReactSix from "./Components/PageReact/List/ReactSix";
 
 const router = createBrowserRouter([
   {
@@ -68,6 +74,32 @@ const router = createBrowserRouter([
       {
         path: "react",
         element: <ReactJs />,
+        children: [
+          {
+            path: "react-one",
+            element: <ReactOne />,
+          },
+          {
+            path: "react-two",
+            element: <ReactTwo />,
+          },
+          {
+            path: "react-three",
+            element: <ReactThree />,
+          },
+          {
+            path: "react-four",
+            element: <ReactFour />,
+          },
+          {
+            path: "react-five",
+            element: <ReactFive />,
+          },
+          {
+            path: "react-six",
+            element: <ReactSix />,
+          },
+        ],
       },
     ],
   },
