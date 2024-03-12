@@ -3,7 +3,7 @@ import React from "react";
 const ReactJsHeader = () => {
   return (
     <div className="header">
-      <h1>ReactJsHeader</h1>
+      <h1>ReactJS Lesson.</h1>
     </div>
   );
 };

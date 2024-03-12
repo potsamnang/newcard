@@ -2,3 +2,21 @@
   width: 100%;
   padding: 10px 20px;
 }
+/* .lists .head {
+  padding-left: 2rem;
+} */
+.lists h1 {
+  padding: 1rem 0;
+  font-size: 2rem;
+  font-family: sans-serif;
+  color: rgb(56, 56, 200);
+}
+.lists h3 {
+  font-family: sans-serif;
+  color: rgb(56, 56, 200);
+}
+.lists span img {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
